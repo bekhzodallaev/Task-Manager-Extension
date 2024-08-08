@@ -1,4 +1,39 @@
 .header {
-  color: red;
-  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.75rem 7.5rem;
+  .navbar,
+  .login {
+    ul {
+      display: flex;
+      gap: 1.25rem;
+      li {
+        list-style-type: none;
+        font-size: 0.875rem;
+        a {
+          text-decoration: none;
+          color: #37375a;
+        }
+      }
+    }
+  }
+  .login {
+    display: flex;
+    gap: 1.25rem;
+    align-items: center;
+    button {
+      padding: 0.875rem 0.9375rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.625rem;
+      flex-shrink: 0;
+      border: none;
+      color: #fff;
+      border-radius: 0.5rem;
+      background: #3632ff;
+      height: 2rem;
+      font-size: 0.875rem;
+    }
+  }
 }
