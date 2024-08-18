@@ -1,9 +1,9 @@
-import Header from "./components/Header/Header";
+import FirstPage from "./components/FirstPage/FirstPage";
 import "@styles/global.scss";
 function App() {
   return (
     <>
-      <Header></Header>
+      <FirstPage />
     </>
   );
 }
