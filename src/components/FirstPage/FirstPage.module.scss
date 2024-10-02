@@ -15,7 +15,7 @@
   h1 {
     color: #010046;
     text-align: center;
-    font-family: "Mona Sans Expanded";
+    font-family: 'Mona Sans Expanded';
     font-size: 3rem;
     font-style: normal;
     font-weight: 600;
@@ -26,22 +26,5 @@
     color: #37375a;
     font-size: 1rem;
     text-align: center;
-  }
-  button {
-    display: block;
-    margin: 1.88rem auto;
-    display: flex;
-    height: 3rem;
-    padding: 0.875rem 1.25rem;
-    justify-content: center;
-    align-items: center;
-    gap: 0.625rem;
-    border-radius: 0.75rem;
-    background: #3632ff;
-    backdrop-filter: blur(8.899999618530273px);
-    color: #fff;
-    font-size: 1rem;
-    outline: none;
-    border: none;
   }
 }
