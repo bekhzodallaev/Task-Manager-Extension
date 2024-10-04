@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+  <g filter="url(#filter0_i_42_443)">
+    <rect x="30" width="30" height="30" rx="8" transform="rotate(90 30 0)" fill="#3632FF"/>
+  </g>
+  <rect x="29.5" y="0.5" width="29" height="29" rx="7.5" transform="rotate(90 29.5 0.5)" stroke="#E1E0FF"/>
+  <path d="M15.8824 20.8947L22.1324 14.6447C22.2489 14.5282 22.3414 14.3898 22.4045 14.2376C22.4675 14.0853 22.5 13.9221 22.5 13.7572C22.5 13.4244 22.3678 13.1051 22.1324 12.8697C22.0158 12.7532 21.8775 12.6607 21.7252 12.5977C21.5729 12.5346 21.4097 12.5021 21.2449 12.5021C20.912 12.5021 20.5928 12.6344 20.3574 12.8697L14.9949 18.2447L9.63239 12.8697C9.51618 12.7526 9.37793 12.6596 9.22561 12.5961C9.07328 12.5327 8.9099 12.5 8.74489 12.5C8.57987 12.5 8.41649 12.5327 8.26416 12.5961C8.11184 12.6596 7.97359 12.7526 7.85739 12.8697C7.74023 12.986 7.64723 13.1242 7.58377 13.2765C7.52031 13.4289 7.48764 13.5922 7.48764 13.7572C7.48764 13.9223 7.52031 14.0856 7.58377 14.238C7.64723 14.3903 7.74023 14.5285 7.85739 14.6447L14.1074 20.8947C14.2236 21.0119 14.3618 21.1049 14.5142 21.1684C14.6665 21.2318 14.8299 21.2645 14.9949 21.2645C15.1599 21.2645 15.3233 21.2318 15.4756 21.1684C15.6279 21.1049 15.7662 21.0119 15.8824 20.8947Z" fill="white"/>
+  <defs>
+    <filter id="filter0_i_42_443" x="0" y="0" width="30" height="30" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset/>
+      <feGaussianBlur stdDeviation="1.75"/>
+      <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.211078 0 0 0 0 0.195833 0 0 0 0 1 0 0 0 0.5 0"/>
+      <feBlend mode="normal" in2="shape" result="effect1_innerShadow_42_443"/>
+    </filter>
+  </defs>
+</svg>
