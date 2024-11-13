@@ -1,0 +1,94 @@
+.footer_parent {
+  background: radial-gradient(
+    339.7% 150.1% at 2.25% 100%,
+    #000 7.77%,
+    #091b7c 48.81%,
+    #6741ff 79.39%,
+    #fdc0f8 100%
+  );
+  box-sizing: border-box;
+  padding: 44.5px 120px;
+  margin: 0;
+  .footer_container {
+    h1 {
+      color: #fff;
+      font-family: 'Mona Sans Expanded';
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 113.057%; /* 29.395px */
+    }
+    p {
+      color: #fff;
+      font-family: 'Mona Sans Expanded';
+      font-size: 1.25rem;
+    }
+    .subscribe_container {
+      form {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 50px;
+
+        input {
+          padding: 15px;
+          gap: 10px;
+          border-radius: 10px;
+          background: #fff;
+          border: none;
+          outline: none;
+          font-size: 1rem;
+        }
+        .subscribe_btn {
+          border: none;
+          padding: 15px;
+          color: white;
+          border-radius: 10px;
+          background: #3632ff;
+          font-size: 1rem;
+        }
+      }
+    }
+    .contact_container {
+      display: flex;
+      justify-content: space-between;
+
+      ul {
+        display: flex;
+        color: white;
+        gap: 40px;
+
+        li {
+          list-style: none;
+          list-style-type: none;
+          a {
+            text-decoration: none;
+            color: white;
+          }
+        }
+      }
+      .social_contact {
+        display: flex;
+        gap: 10px;
+        div {
+          display: flex;
+          width: 30px;
+          height: 30px;
+          padding: 7.618px 7.764px 7.145px 7px;
+          justify-content: center;
+          align-items: center;
+          border-radius: 50%;
+          background: var(--Primary-Color, #3632ff);
+        }
+      }
+    }
+    .rights_text {
+      text-align: center;
+      color: #fff;
+      font-family: 'Mona Sans Expanded';
+      font-size: 1.25rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}

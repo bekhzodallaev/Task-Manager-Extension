@@ -5,6 +5,7 @@ import ReusableBtn from './components/ReusableButton/ReusableBtn';
 import FaqSection from './components/FAQPage/FaqSection';
 import ContactPage from './components/ContactPage/ContactPage';
 import TestimonialsPage from './components/TestimonialsPage/TestimonialsPage';
+import FooterPage from './components/FooterPage/FooterPage';
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <FaqSection />
       <TestimonialsPage />
       <ContactPage />
+      <FooterPage />
     </>
   );
 }
