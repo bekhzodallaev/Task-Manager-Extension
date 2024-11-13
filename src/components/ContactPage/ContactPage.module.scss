@@ -64,6 +64,8 @@
         flex-direction: column;
         gap: 10px;
         font-family: 'Mona Sans Expanded';
+        font-size: 1rem;
+
         input {
           border-radius: 10px;
           border: 1px solid var(--Light-Stroke, #e1e0ff);
@@ -76,6 +78,7 @@
           justify-content: center;
           align-items: flex-start;
           outline: none;
+          font-size: 1rem;
         }
       }
     }
@@ -83,6 +86,7 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
+      font-size: 1rem;
 
       textarea {
         display: flex;
@@ -98,12 +102,14 @@
         box-shadow: 0px 1px 10px 0px rgba(54, 50, 255, 0.05);
         outline: none;
         resize: none;
+        font-size: 1rem;
       }
     }
     .submit_btn {
       width: 106px;
       padding: 0px 20px;
       height: 46px;
+      font-size: 1rem;
     }
   }
   .field_page {
@@ -120,5 +126,6 @@
     background: linear-gradient(86deg, #fff -9.45%, #3a27ff 179.36%);
     box-shadow: 0px 1px 13.5px 0px rgba(54, 50, 255, 0.1);
     margin: 168px 200px;
+    font-size: 1rem;
   }
 }

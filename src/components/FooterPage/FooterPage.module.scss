@@ -21,7 +21,7 @@
     p {
       color: #fff;
       font-family: 'Mona Sans Expanded';
-      font-size: 16px;
+      font-size: 1.25rem;
     }
     .subscribe_container {
       form {
@@ -36,6 +36,7 @@
           background: #fff;
           border: none;
           outline: none;
+          font-size: 1rem;
         }
         .subscribe_btn {
           border: none;
@@ -43,6 +44,7 @@
           color: white;
           border-radius: 10px;
           background: #3632ff;
+          font-size: 1rem;
         }
       }
     }
@@ -83,7 +85,7 @@
       text-align: center;
       color: #fff;
       font-family: 'Mona Sans Expanded';
-      font-size: 16px;
+      font-size: 1.25rem;
       font-style: normal;
       font-weight: 400;
       line-height: normal;
