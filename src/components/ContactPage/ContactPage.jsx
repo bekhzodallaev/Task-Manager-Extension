@@ -4,7 +4,7 @@ import ReusableBtn from '../ReusableButton/ReusableBtn';
 
 const ContactPage = () => {
   return (
-    <div className={styles.contact_container}>
+    <div className={styles.contact_container} id="contact">
       <button type="button">Contact us</button>
       <h1>Let’s work together</h1>
       <p className={styles.text}>

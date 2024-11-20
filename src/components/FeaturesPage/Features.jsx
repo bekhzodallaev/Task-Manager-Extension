@@ -3,7 +3,7 @@ import styles from './Features.module.scss';
 
 const Features = () => {
   return (
-    <div className={styles.features_container}>
+    <div className={styles.features_container} id="features">
       <button type="button" className={styles.features_btn}>
         Features
       </button>
