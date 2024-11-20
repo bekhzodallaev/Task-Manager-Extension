@@ -30,7 +30,7 @@ const testimonialsData = [
 ];
 const TestimonialsPage = () => {
   return (
-    <div className={styles.testimonials_container}>
+    <div className={styles.testimonials_container} id="whyus">
       <button type="button">Testimonials</button>
       <h1>Don't take our word for it.See what our users say.</h1>
       <div className={styles.testimonials_item_container}>

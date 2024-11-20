@@ -1,6 +1,6 @@
-import styles from "./Header.module.scss";
+import styles from './Header.module.scss';
 // import { ReactComponent as LogoSteam } from "@assets/HeaderAssets/logo-steam.svg"; // Using the alias
-import LogoSteam from "@assets/HeaderAssets/logo-steam.svg";
+import LogoSteam from '@assets/HeaderAssets/logo-steam.svg';
 const Header = () => {
   return (
     <header className={styles.header}>
@@ -32,7 +32,9 @@ const Header = () => {
             <a href="#login">Login</a>
           </li>
         </ul>
-        <button type="button">Add to Chrome</button>
+        <a href="https://chromewebstore.google.com/" target="_blank">
+          <button type="button">Add to Chrome</button>
+        </a>
       </div>
     </header>
   );

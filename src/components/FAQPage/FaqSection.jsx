@@ -45,7 +45,7 @@ const FaqSection = () => {
   };
 
   return (
-    <div className={styles.faq_container}>
+    <div className={styles.faq_container} id="faq">
       <button type="button">Frequently Asked Questions</button>
       <h1>Have questions? We have answers</h1>
       <p className={styles.explore_p}>

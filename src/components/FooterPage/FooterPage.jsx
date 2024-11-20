@@ -23,34 +23,44 @@ const FooterPage = () => {
         <div className={styles.contact_container}>
           <ul>
             <li>
-              <a href="#">Features</a>
+              <a href="#features">Features</a>
             </li>
             <li>
-              <a href="#">Why us</a>
+              <a href="#whyus">Why us</a>
             </li>
 
             <li>
-              <a href="#">FAQ</a>
+              <a href="#faq">FAQ</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
           <div className={styles.social_contact}>
             <div>
-              <img src={TwitterLogo} alt="" />
+              <a href="https://x.com/?lang=en" target="_blank">
+                <img src={TwitterLogo} alt="" />
+              </a>
             </div>
             <div>
-              <img src={InstaLogo} alt="" />
+              <a href=" https://www.instagram.com/" target="_blank">
+                <img src={InstaLogo} alt="" />
+              </a>
             </div>
             <div>
-              <img src={LinkedinLogo} alt="" />
+              <a href="https://www.linkedin.com/in/bekallaev/" target="_blank">
+                <img src={LinkedinLogo} alt="" />
+              </a>
             </div>
             <div>
-              <img src={WhatsAppLogo} alt="" />
+              <a href="https://web.whatsapp.com/" target="_blank">
+                <img src={WhatsAppLogo} alt="" />
+              </a>
             </div>
             <div>
-              <img src={TelegramLogo} alt="" />
+              <a href="https://web.telegram.org/a/" target="_blank">
+                <img src={TelegramLogo} alt="" />
+              </a>
             </div>
           </div>
         </div>
