@@ -6,9 +6,11 @@ import FaqSection from './components/FAQPage/FaqSection';
 import ContactPage from './components/ContactPage/ContactPage';
 import TestimonialsPage from './components/TestimonialsPage/TestimonialsPage';
 import FooterPage from './components/FooterPage/FooterPage';
+import Header from './components/Header/Header';
 function App() {
   return (
     <>
+      <Header />
       <FirstPage />
       <Features />
       <ReusableBtn />
