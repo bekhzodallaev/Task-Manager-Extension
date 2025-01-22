@@ -2,6 +2,10 @@
   display: flex;
   justify-content: space-between;
   margin: 1.75rem 7.5rem;
+  position: sticky;
+  overflow: hidden;
+  z-index: 1000;
+  top: 1.75rem;
   .navbar,
   .login {
     ul {
