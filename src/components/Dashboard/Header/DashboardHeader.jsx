@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './DashboardHeader.module.scss';
 
 function DashboardHeader() {
   return (

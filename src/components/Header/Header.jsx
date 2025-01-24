@@ -1,7 +1,16 @@
 import styles from './Header.module.scss';
 // import { ReactComponent as LogoSteam } from "@assets/HeaderAssets/logo-steam.svg"; // Using the alias
 import LogoSteam from '@assets/HeaderAssets/logo-steam.svg';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 const Header = () => {
+  const navigate = useNavigate();
+
+  const handleLogin = () => {
+    navigate('/dashboard');
+  };
+
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
@@ -28,7 +37,7 @@ const Header = () => {
       </nav>
       <div className={styles.login}>
         <ul>
-          <li>
+          <li onClick={handleLogin}>
             <a href="#login">Login</a>
           </li>
         </ul>
