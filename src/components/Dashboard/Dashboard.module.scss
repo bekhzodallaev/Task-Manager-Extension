@@ -1,0 +1,10 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.dashboard_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color: #dcdfea;
+}
