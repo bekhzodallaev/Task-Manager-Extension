@@ -1,0 +1,75 @@
+.header_wrapper {
+  margin-top: 3rem;
+  .header_texts {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    color: #182164;
+    .time_info {
+      p {
+        font-size: 15px;
+      }
+      h3 {
+        font-size: 28px;
+      }
+    }
+  }
+  input {
+    height: 2.5rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0.5rem;
+    width: 300px;
+    font-size: 17px;
+  }
+  .tasks_list {
+    .lists_header {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 2rem;
+
+      div {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+        background-color: #5269ff;
+        color: white;
+        font-size: 25px;
+        box-shadow: 0 2px 15px #5269ff8b;
+        cursor: pointer;
+      }
+      h2 {
+        color: #182164;
+      }
+    }
+    .task_placeholder {
+      width: 300px;
+      height: 300px;
+      border: 2px dashed rgba(0, 0, 0, 0.233);
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+
+      p {
+        color: rgba(0, 0, 0, 0.377);
+        font-size: 18px;
+        transition: color 0.3s ease; /* Add transition for smooth effect */
+      }
+
+      &:hover {
+        background-color: #5269ff;
+        border: none;
+      }
+
+      &:hover p {
+        color: white; /* Now explicitly changing the text color */
+      }
+    }
+  }
+}
