@@ -35,14 +35,17 @@
     flex-direction: column;
     gap: 2rem;
     margin-top: 3rem;
-    p {
+    .title {
       color: #182164;
       font-weight: bold;
+      font-size: 20px;
     }
     .stats_list {
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
+      color: #182164;
+      font-weight: bold;
       .total,
       .completed,
       .pending {

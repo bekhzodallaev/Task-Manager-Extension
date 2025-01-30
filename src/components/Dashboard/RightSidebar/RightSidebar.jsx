@@ -19,7 +19,7 @@ function RightSidebar() {
         </div>
       </div>
       <div className={styles.task_stats_wrapper}>
-        <p>Task Status</p>
+        <p className={styles.title}>Task Status</p>
         <div className={styles.stats_list}>
           <div className={styles.total}>
             <p>Total</p>
