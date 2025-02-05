@@ -11,7 +11,7 @@ function TaskCreateModal({ closeModal }) {
         </div>
       </div>
       <div className={styles.title_input}>
-        <label for="title">Title</label>
+        <label htmlFor="title">Title</label>
         <br />
         <input
           type="text"
@@ -21,7 +21,7 @@ function TaskCreateModal({ closeModal }) {
         />
       </div>
       <div className={styles.description_area}>
-        <label for="description">Description</label>
+        <label htmlFor="description">Description</label>
         <br />
         <textarea
           name=""
@@ -33,7 +33,7 @@ function TaskCreateModal({ closeModal }) {
       </div>
       <div className={styles.checkbox_btn}>
         <input type="checkbox" id="important" name="important" />
-        <label for="important">Mark as Important</label>
+        <label htmlFor="important">Mark as Important</label>
       </div>
       <button type="button" className={styles.add_task_btn}>
         Add Task
