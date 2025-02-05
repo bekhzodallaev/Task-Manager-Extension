@@ -4,6 +4,7 @@ import ringbellIcon from '../../../assets/DashboardAssets/ringbell.svg';
 import settingsIcon from '../../../assets/DashboardAssets/settings.svg';
 import logoutIcon from '../../../assets/DashboardAssets/logout.svg';
 import profileIcon from '../../../assets/DashboardAssets/profile.png';
+
 function RightSidebar() {
   return (
     <div className={styles.rightsidebar_wrapper}>

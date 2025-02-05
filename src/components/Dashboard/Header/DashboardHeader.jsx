@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './DashboardHeader.module.scss';
+import TaskCreateModal from '../ModalWindow/TaskCreateModal';
 
-function DashboardHeader() {
+function DashboardHeader({ isModalOpen, openModal, closeModal }) {
   return (
     <div className={styles.header_wrapper}>
       <div className={styles.header_texts}>
@@ -9,20 +10,29 @@ function DashboardHeader() {
           <p>Wednesday, Jan 22 2025</p>
           <h3>Welcome Bekhzod</h3>
         </div>
-        <input type="text" placeholder="Search tasks..." />
+        <input
+          type="text"
+          placeholder="Search tasks..."
+          className={styles.search_input}
+        />
       </div>
       <hr />
       <div className={styles.tasks_list}>
         <div className={styles.lists_header}>
           <h2>All Tasks</h2>
-          <div>
+          <div onClick={openModal}>
             <p>+</p>
           </div>
         </div>
-        <div className={styles.task_placeholder}>
+        <div className={styles.task_placeholder} onClick={openModal}>
           <p>Add a task</p>
         </div>
       </div>
+      {isModalOpen && (
+        <div className={styles.modal_window}>
+          <TaskCreateModal closeModal={closeModal} />
+        </div>
+      )}
     </div>
   );
 }

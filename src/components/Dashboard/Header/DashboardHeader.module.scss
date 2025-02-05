@@ -1,5 +1,6 @@
 .header_wrapper {
   margin-top: 3rem;
+  position: relative;
   .header_texts {
     display: flex;
     justify-content: space-between;
@@ -14,7 +15,7 @@
       }
     }
   }
-  input {
+  .search_input {
     height: 2.5rem;
     border: none;
     outline: none;
@@ -47,8 +48,8 @@
       }
     }
     .task_placeholder {
-      width: 300px;
-      height: 300px;
+      width: 250px;
+      height: 250px;
       border: 2px dashed rgba(0, 0, 0, 0.233);
       border-radius: 10px;
       display: flex;
@@ -71,5 +72,10 @@
         color: white; /* Now explicitly changing the text color */
       }
     }
+  }
+  .modal_window {
+    position: absolute;
+    top: 20%;
+    left: 30%;
   }
 }

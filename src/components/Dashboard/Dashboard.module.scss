@@ -5,6 +5,17 @@
 }
 .dashboard_wrapper {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 3fr 1fr;
   background-color: #dcdfea;
+  position: relative;
+}
+.modal_wrapper {
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  z-index: 10;
+}
+.modal_open {
+  background-color: rgba(0, 0, 0, 0.363);
+  z-index: 1;
 }
