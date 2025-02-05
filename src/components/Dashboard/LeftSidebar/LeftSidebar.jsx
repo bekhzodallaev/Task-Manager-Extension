@@ -5,7 +5,7 @@ import homeLogo from '../../../assets/DashboardAssets/home.svg';
 import listLogo from '../../../assets/DashboardAssets/list.svg';
 import starLogo from '../../../assets/DashboardAssets/star.svg';
 import completedLogo from '../../../assets/DashboardAssets/completed.svg';
-function LeftSidebar() {
+function LeftSidebar({ openModal }) {
   return (
     <div className={styles.top_navbar}>
       <div className={styles.title_wrapper}>
@@ -42,7 +42,9 @@ function LeftSidebar() {
           </a>
         </li>
       </ul>
-      <button type="button" className={styles.btn_addtask}>Add New Task</button>
+      <button type="button" className={styles.btn_addtask} onClick={openModal}>
+        Add New Task
+      </button>
     </div>
   );
 }

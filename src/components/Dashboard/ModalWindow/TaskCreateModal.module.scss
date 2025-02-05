@@ -1,0 +1,65 @@
+.modal_wrapper {
+  color: #182164;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  .modal_title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    .close_modal_btn {
+      cursor: pointer;
+      font-weight: bold;
+      color: rgba(0, 0, 0, 0.315);
+    }
+  }
+  .title_input {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    input {
+      background-color: #eff2f8;
+      border-radius: 10px;
+      width: 100%;
+      outline: none;
+      height: 2.5rem;
+      border: none;
+      outline: none;
+      padding: 0.5rem;
+      font-size: 17px;
+    }
+  }
+  .description_area {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    textarea {
+      background-color: #eff2f8;
+      padding: 1rem;
+      border-radius: 10px;
+      font-size: 1rem;
+      border: 2.5px solid #ffff0000;
+      outline: none;
+    }
+  }
+  .checkbox_btn {
+    display: flex;
+    margin-top: 1rem;
+    gap: 0.5rem;
+  }
+
+  .add_task_btn {
+    background-color: #5269ff;
+    color: #fff;
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5rem;
+    font-size: 1.2rem;
+    bottom: 2rem;
+  }
+}
