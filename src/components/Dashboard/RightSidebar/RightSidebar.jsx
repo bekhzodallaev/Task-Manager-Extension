@@ -4,14 +4,26 @@ import ringbellIcon from '../../../assets/DashboardAssets/ringbell.svg';
 import settingsIcon from '../../../assets/DashboardAssets/settings.svg';
 import logoutIcon from '../../../assets/DashboardAssets/logout.svg';
 import profileIcon from '../../../assets/DashboardAssets/profile.png';
+import { useNavigate } from 'react-router-dom';
 
 function RightSidebar() {
+  const navigate = useNavigate();
+
+  const handleExit = () => {
+    navigate('/');
+  };
+
   return (
     <div className={styles.rightsidebar_wrapper}>
       <div className={styles.settings}>
         <img src={ringbellIcon} className={styles.ringbell} alt="" />
         <img src={settingsIcon} className={styles.settings_icon} alt="" />
-        <img src={logoutIcon} className={styles.logout_icon} alt="" />
+        <img
+          src={logoutIcon}
+          className={styles.logout_icon}
+          alt=""
+          onClick={handleExit}
+        />
       </div>
       <div className={styles.profile}>
         <p>Bekhzod</p>
