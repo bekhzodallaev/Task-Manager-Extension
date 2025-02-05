@@ -8,9 +8,11 @@
     display: flex;
     justify-content: flex-end;
     gap: 1rem;
+
     img {
       width: 20px;
       opacity: 0.5;
+      cursor: pointer;
     }
   }
   .profile {
