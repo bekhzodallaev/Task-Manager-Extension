@@ -22,7 +22,7 @@ function Dashboard() {
       <RightSidebar />
 
       {isModalOpen && (
-        <div className={styles.modal_wrapper}>
+        <div className={styles.modal_wrapper} role="dialog">
           <TaskCreateModal closeModal={closeModal} />
         </div>
       )}
