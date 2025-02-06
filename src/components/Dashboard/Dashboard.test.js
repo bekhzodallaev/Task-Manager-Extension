@@ -2,14 +2,12 @@ import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import Dashboard from './Dashboard';
 import '@testing-library/jest-dom';
-import { BrowserRouter } from 'react-router-dom'; // Import BrowserRouter
+import { BrowserRouter } from 'react-router-dom';
 
 describe('Dashboard Component', () => {
   test('Modal should not be visible initially', () => {
     render(
       <BrowserRouter>
-        {' '}
-        {/* Wrap your component with BrowserRouter */}
         <Dashboard />
       </BrowserRouter>
     );
@@ -20,8 +18,6 @@ describe('Dashboard Component', () => {
   test("Clicking 'Add Task' button opens the modal", () => {
     render(
       <BrowserRouter>
-        {' '}
-        {/* Wrap your component with BrowserRouter */}
         <Dashboard />
       </BrowserRouter>
     );
@@ -36,8 +32,6 @@ describe('Dashboard Component', () => {
   test("Clicking 'Close' button closes the modal", () => {
     render(
       <BrowserRouter>
-        {' '}
-        {/* Wrap your component with BrowserRouter */}
         <Dashboard />
       </BrowserRouter>
     );
